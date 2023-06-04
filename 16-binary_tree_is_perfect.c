@@ -14,9 +14,9 @@ int binary_tree_is_perfect(const binary_tree_t *tree)
 		return (0);
 	}
 
-	/*A perfect tree is a full and balanced tree, we will be using
-	an helper function to implement this function
-	check if tree is full and has balanced height*/
+	/*A perfect tree is a full and balanced tree, i will be using an helper*/
+	/*function to implement this function check if tree is full*/
+	/*and has balanced height*/
 
 	if (binary_tree_is_full(tree) && binary_tree_balance(tree))
 	{
