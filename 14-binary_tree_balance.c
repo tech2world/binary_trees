@@ -74,6 +74,7 @@ int binary_tree_balance(const binary_tree_t *tree)
 		right_height = binary_tree_height(tree->right);
 	}
 
-	/* Return the balance factor: height of left subtree - height of right subtree */
+	/* Return the balance factor: */
+	/*height of left subtree - height of right subtree */
 	return (left_height - right_height);
 }
