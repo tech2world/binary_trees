@@ -20,8 +20,9 @@ size_t binary_tree_nodes(const binary_tree_t *tree)
 	}
 
 /* check if the current node has at least one child,
-/*if it does count it has as a node and recursively count the nodes in the*/
-/*left and right sub-trees*/
+if it does count it has as a node and recursively count the nodes in
+the left and right sub-trees
+*/
 
 	if (tree->left != NULL || tree->right != NULL)
 	{
