@@ -12,14 +12,14 @@ int binary_tree_is_root(const binary_tree_t *node)
     /* if null, root does not exists*/
     if (node == NULL)
     {
-	return 0;
+        return (0);
     }
 
     /* check for parent, if none then it is a root*/
     if (node->parent == NULL)
     {
-	return 1;
+        return (1);
     }
     /* parent exists - not root*/
-    return 0;
+    return (0);
 }

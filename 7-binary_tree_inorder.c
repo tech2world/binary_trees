@@ -4,7 +4,7 @@
  * binary_tree_inorder - traverse a binary tree using in-order function
  * @tree: pointer to root of node of the tree to traverse
  * @func: pointer to func call
- * 
+ *
  * Return: void ,  do nothing if tree or func is null
 */
 
