@@ -66,14 +66,14 @@ int binary_tree_balance(const binary_tree_t *tree)
 	/* Calculate the height of left and right subtrees */
 	if (tree->left != NULL)
 	{
-		left_height = binary_tree_height(tree->left);
+		left_height = ((int)binary_tree_height(tree->left));
 	}
 
 	if (tree->right != NULL)
 	{
-		right_height = binary_tree_height(tree->right);
+		right_height = ((int)binary_tree_height(tree->right));
 	}
 
 	/* Return the balance factor: height of left subtree - height of right subtree */
-	return (1 + (left_height - right_height));
+	return (left_height - right_height);
 }
