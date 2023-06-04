@@ -1,5 +1,6 @@
 #include "binary_trees.h"
 
+size_t binary_tree_height(const binary_tree_t *tree);
 /**
  * binary_tree_balance - measures the balance factor of a binary tree
  * @tree: pointer to the root node of the tree
@@ -9,7 +10,6 @@
 
 int binary_tree_balance(const binary_tree_t *tree)
 {
-	size_t binary_tree_height(const binary_tree_t *tree);
 	int left_height;
 	int right_heigth;
 
