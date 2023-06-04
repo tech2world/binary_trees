@@ -5,7 +5,7 @@
  * @tree: pointer to the root node of the tree to be deleted
  *
  * Description: if tree is Null do nothing
-*/
+ */
 
 void binary_tree_delete(binary_tree_t *tree)
 {
